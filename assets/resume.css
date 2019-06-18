@@ -2,18 +2,21 @@
 
 /* general whole page stylings */
 body {
+  color: #555555;
   font-family: Georgia;
   width: 100%; max-width: none; margin: 0 auto;
 }
 
-.page { background-color: #FFFFFF; padding: 0px 5px; }
+.page { background-color: #FFFFFF; padding: 0px 35px; margin-top: 30px; margin-bottom: 30px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
-h1, h2, h3, h4 { color: #333; margin: 0; }
+h1, h2, h4 { color: #555; margin: 0; }
+
+h3 { color: #6699CC; margin: 0; }
 
 /* bio header */
 
 .bio { text-align: center; letter-spacing: 0; }
-.bio h1 { font-size: 200%; margin-top: 2%}
+.bio h1 { font-size: 200%; margin-top: 35px; padding-top: 35px;}
 .bio h2 { font-size: 150%; }
 .contact-info { font-size: 90%; margin-top: 1%; }
 
