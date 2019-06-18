@@ -16,7 +16,7 @@ h3 { color: #6699CC; margin: 0; }
 /* bio header */
 
 .bio { text-align: center; letter-spacing: 0; }
-.bio h1 { font-size: 200%; margin-top: 35px; padding-top: 35px;}
+.bio h1 { font-size: 200%; padding-top: 35px;}
 .bio h2 { font-size: 150%; }
 .contact-info { font-size: 90%; margin-top: 1%; }
 
@@ -106,12 +106,20 @@ h3 { color: #6699CC; margin: 0; }
   /* print media - printing to PDF*/
   body { width: 93%; max-width: none; }
 
+@page {
+  size: auto;
+  margin: 0;
+       }
+	   
 a
 {
    color:#0000EE;
    text-decoration: none;
    background-color: none;
 }
+
+.page {box-shadow: none; margin-top: 0px;}
+
 
 a:hover{text-decoration:none}
 
